@@ -3,21 +3,15 @@
 <head>
      <meta content="text/html; charset=utf-8">
     <title>My first Title</title>
-    <style> 
-        td{
-            border: black 1px solid
-        };
-        
-    </style>
-
-
+  
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div>
-        <p><img src="images/photo_2024-06-11_18-19-011.jpg" alt="cute cat"></p>
-        <br><a href="pages/gallery.html"> More photo</a>
+        <p><img src="images/photo_2024-06-11_18-19-011.jpg" alt="cute cat" class="photo"></p>
+        <br><a href="pages/gallery.html" class="link"> More photo</a>
         <h1>Anastasiia Yatsenko</h1>
         <h2>Student of Hillel IT School</h2>
         
@@ -26,29 +20,30 @@
    
     <hr color="green" size="2px">
 
-    <div>
-        <h3>Contacts:</h3>
+    <div class="section-all">
+        <h3 class="section-underscore">Contacts:</h3>
         <table>
             <tr>
-                <td>
+                <td style="color: rgb(32, 15, 15);">
                     Linkedin
                 </td>
                <td>
-                    <a href="https://www.linkedin.com/in/anastyasiia-yatsenko-330051273/">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/anastyasiia-yatsenko-330051273/" style="text-decoration: none;">Linkedin</a>
               </td>
             
             </tr>
         </table>
-        <a href="pages/contact.html"> More contacts</a>
+        <a href="pages/contact.html" style="text-decoration: none;"> More contacts</a>
+        
     </div>
 
-    <div>
-     <h3> Summary:</h3>
+    <div class="section-all">
+     <h3 class="section-underscore"> Summary:</h3>
      <p>Student of <b>QA Manual</b> course in Hillel IT school</p>
     </div>
 
- <div>
-        <h3>Tech Skills:</h3>
+ <div class="section-all">
+        <h3 class="section-underscore">Tech Skills:</h3>
         <ul>
             <li>Know HTML and CSS in a basic level</li>
             <li>Have experience with JIRA</li>

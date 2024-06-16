@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body class="background">
+    <title>Contact</title>
 <div>
     <a href="/HTML task/index.html">Back to main page</a>
     <h1>Anastasiia Yatsenko</h1>
@@ -13,22 +15,26 @@
     
 </div>
 
-<style>
-    td{border: black 1px solid
-    };
-</style>
+
 
 <div>
     <h3>More Contacts:</h3>
-    <table>
+    <table id="table">
         <tr>
-            <td>
-               <a href="https://www.instagram.com/jabiiya/">Instagram</a> 
+            <td id="cell-instagram">
+               Instagram
             </td>
-           <td>
-            <a href="https://t.me/jabiiya">Telegram</a>  
-          </td>
+            <td>
+              <button class="button-settings"> <a href="https://www.instagram.com/jabiiya/" target="_blank" title="Instagram" style="text-decoration: none;">Instagram</a> </button>
+                
+             </td>
         
+        </tr>
+        <tr>
+         <td>Telegram</td>   
+         <td>
+           <button class="button-settings"><a href="https://t.me/jabiiya" style="text-decoration: none;">Telegram</a></button>  
+          </td>   
         </tr>
     </table>
    
